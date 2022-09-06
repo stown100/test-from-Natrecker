@@ -1,0 +1,12 @@
+.movies {
+  background: #363232;
+  padding: 40px 260px;
+  min-height: 100vh;
+  &__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0 0 18px;
+  }
+}

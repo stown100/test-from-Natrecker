@@ -1,0 +1,56 @@
+.sorting {
+  display: flex;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 40px;
+  &__from-title {
+    margin-right: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__from-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.sorting-button {
+  border: 1px solid #c4c4c4;
+  width: 15px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  margin-right: 10px;
+  &_active {
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    margin-right: 10px;
+    border: 1px solid #c4c4c4;
+    width: 15px;
+    height: 15px;
+    content: "./assets/Path.svg";
+    background: rgba(255, 82, 82, 0.98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    width: 11.67px;
+    height: 8.68px;
+  }
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.sorting-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #c4c4c4;
+}

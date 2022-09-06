@@ -1,0 +1,10 @@
+.plug {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    &__text {
+        font-size: 26px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+}
